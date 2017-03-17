@@ -117,6 +117,8 @@ module.exports = function ($rootScope, settings) {
 
     frames: framesReducer.frames,
 
+    isFeatureEnabled: sessionReducer.isFeatureEnabled,
+
     isSidebar: viewerReducer.isSidebar,
   }, store.getState);
 
